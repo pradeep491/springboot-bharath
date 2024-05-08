@@ -10,7 +10,6 @@ import java.util.List;
 
 @RestController
 @AllArgsConstructor
-//@RequestMapping("/product")
 public class ProductRestController {
 
     private ProductRepository repo;
@@ -20,22 +19,26 @@ public class ProductRestController {
         return repo.findAll();
     }
 
-    @GetMapping("/prodcuts/{id}")
+    @GetMapping("/products/{id}")
     public Product getProduct(@PathVariable("id") Long id) {
         return repo.findById(id).get();
     }
 
-    @PostMapping("/prodcuts")
+    @PostMapping("/products")
     public List<Product> createProduct(@RequestBody List<Product> product) {
         return repo.saveAll(product);
     }
 
-    @PutMapping("/prodcuts")
+    @PutMapping("/products")
     public Product updateProduct(@RequestBody Product product) {
         return repo.save(product);
     }
-    @DeleteMapping("/prodcuts/{id}")
+    @DeleteMapping("/products/{id}")
     public void deleteProduct(@PathVariable("id") Long id) {
         repo.deleteById(id);
+    }
+    @GetMapping("/productsinfo")
+    public String productInfo() {
+        return "hello from product controller";
     }
 }
