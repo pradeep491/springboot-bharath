@@ -25,8 +25,8 @@ public class ProductRestController {
     }
 
     @PostMapping("/products")
-    public List<Product> createProduct(@RequestBody List<Product> product) {
-        return repo.saveAll(product);
+    public Product createProduct(@RequestBody Product product) {
+        return repo.save(product);
     }
 
     @PutMapping("/products")
