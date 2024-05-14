@@ -389,3 +389,31 @@
 2024-05-10T17:33:46.066+05:30  INFO 31160 --- [productrestapi-actuator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-10T17:33:46.068+05:30  INFO 31160 --- [productrestapi-actuator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-05-10T17:33:46.086+05:30  INFO 31160 --- [productrestapi-actuator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-10T18:09:51.605+05:30  INFO 15040 --- [productrestapi-actuator] [main] c.t.s.ProductrestapiActuatorApplication  : Starting ProductrestapiActuatorApplication using Java 17.0.9 with PID 15040 (D:\Workspace\springboot-bharath\productrestapi-actuator\target\classes started by prade in D:\Workspace\springboot-bharath\productrestapi-actuator)
+2024-05-10T18:09:51.608+05:30  INFO 15040 --- [productrestapi-actuator] [main] c.t.s.ProductrestapiActuatorApplication  : The following 1 profile is active: "dev"
+2024-05-10T18:09:52.678+05:30  INFO 15040 --- [productrestapi-actuator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-10T18:09:52.748+05:30  INFO 15040 --- [productrestapi-actuator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2024-05-10T18:09:53.570+05:30  INFO 15040 --- [productrestapi-actuator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-10T18:09:53.585+05:30  INFO 15040 --- [productrestapi-actuator] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-10T18:09:53.585+05:30  INFO 15040 --- [productrestapi-actuator] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-10T18:09:53.665+05:30  INFO 15040 --- [productrestapi-actuator] [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2024-05-10T18:09:53.666+05:30  INFO 15040 --- [productrestapi-actuator] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2003 ms
+2024-05-10T18:09:54.022+05:30  INFO 15040 --- [productrestapi-actuator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-10T18:09:54.373+05:30  INFO 15040 --- [productrestapi-actuator] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e0f2c82
+2024-05-10T18:09:54.375+05:30  INFO 15040 --- [productrestapi-actuator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-10T18:09:54.422+05:30  INFO 15040 --- [productrestapi-actuator] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-10T18:09:54.466+05:30  INFO 15040 --- [productrestapi-actuator] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-10T18:09:54.524+05:30  INFO 15040 --- [productrestapi-actuator] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-10T18:09:54.815+05:30  INFO 15040 --- [productrestapi-actuator] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-10T18:09:55.603+05:30  INFO 15040 --- [productrestapi-actuator] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-10T18:09:55.605+05:30  INFO 15040 --- [productrestapi-actuator] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-10T18:09:55.988+05:30  WARN 15040 --- [productrestapi-actuator] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-10T18:09:56.749+05:30  INFO 15040 --- [productrestapi-actuator] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-05-10T18:09:56.836+05:30  INFO 15040 --- [productrestapi-actuator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/productapi'
+2024-05-10T18:09:56.849+05:30  INFO 15040 --- [productrestapi-actuator] [main] c.t.s.ProductrestapiActuatorApplication  : Started ProductrestapiActuatorApplication in 5.687 seconds (process running for 6.108)
+2024-05-10T18:11:01.759+05:30  INFO 15040 --- [productrestapi-actuator] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-10T18:11:01.761+05:30  INFO 15040 --- [productrestapi-actuator] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-10T18:11:01.766+05:30  INFO 15040 --- [productrestapi-actuator] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-05-10T18:51:11.964+05:30  INFO 15040 --- [productrestapi-actuator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-10T18:51:11.968+05:30  INFO 15040 --- [productrestapi-actuator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-10T18:51:11.996+05:30  INFO 15040 --- [productrestapi-actuator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
