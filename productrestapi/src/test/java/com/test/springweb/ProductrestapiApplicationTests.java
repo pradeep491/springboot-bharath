@@ -1,6 +1,7 @@
 package com.test.springweb;
 
 import com.test.springweb.entity.Product;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.web.client.RestTemplate;
@@ -38,5 +39,12 @@ class ProductrestapiApplicationTests {
         Product product = restTemplate.getForObject("http://localhost:8080/productapi/products/3", Product.class);
         product.setPrice(BigDecimal.valueOf(35000d));
         restTemplate.put("http://localhost:8080/productapi/products", product);
+    }
+
+    @Test
+    @DisplayName("Delete Product")
+    public void testDeleteProduct(){
+        RestTemplate restTemplate = new RestTemplate();
+        restTemplate.delete("http://localhost:8080/productapi/products/8");
     }
 }

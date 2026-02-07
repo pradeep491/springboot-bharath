@@ -25,6 +25,6 @@ class CoreApplicationTests {
 
 	@Test
 	void testDependencyInjectionService() {
-		assertNotNull(service);
+		assertNotNull(service1);
 	}
 }

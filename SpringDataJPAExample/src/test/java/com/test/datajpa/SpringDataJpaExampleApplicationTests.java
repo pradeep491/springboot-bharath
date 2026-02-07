@@ -2,6 +2,7 @@ package com.test.datajpa;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -32,6 +33,7 @@ class SpringDataJpaExampleApplicationTests {
 	@Test
 	void testSaveStudent() {
 		student = Student.builder().id(491L).name("pradeep").score(590).build();
+		//student = Student.builder().name("pradeep").score(590).id(0L).build();
 		repo.save(student);
 
 		assertThat(student).isNotNull();
@@ -42,9 +44,9 @@ class SpringDataJpaExampleApplicationTests {
 	@Test
 	void testSaveAllStudent() {
 		Student student1 = Student.builder().id(492L).name("punarvika").score(598).build();
-		repo.save(student1);
-		repo.save(student);
+		List<Student> list  = List.of(student,student1);
 
+		repo.saveAll(list);
 		List<Student> studentList = repo.findAll();
 
 		// then - verify the output
@@ -55,7 +57,6 @@ class SpringDataJpaExampleApplicationTests {
 	@DisplayName("JUnit test for get student by id operation")
 	@Test
 	public void givenEmployeeObject_whenFindById_thenReturnEmployeeObject() {
-
 		repo.save(student);
 
 		// when - action or the behaviour that we are going test
