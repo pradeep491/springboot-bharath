@@ -42,7 +42,7 @@ class ProductrestapiProfilesApplicationTests {
 	public void testUpdateProduct() {
 		RestTemplate restTemplate = new RestTemplate();
 		Product product = restTemplate.getForObject(baseURL+"3", Product.class);
-		product.setPrice(BigDecimal.valueOf(35000d));
-		restTemplate.put("http://localhost:8080/productapi/products", product);
+		product.setPrice(BigDecimal.valueOf(38000d));
+		restTemplate.put(baseURL, product);
 	}
 }

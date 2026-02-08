@@ -1,599 +1,499 @@
-2024-05-19T05:51:35.901+05:30  INFO 19832 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Starting ProductrestapiCacheApplication using Java 17.0.9 with PID 19832 (D:\Workspace\springboot-bharath\productrestapi-cache\target\classes started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T05:51:35.903+05:30  INFO 19832 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : The following 1 profile is active: "dev"
-2024-05-19T05:51:36.858+05:30  INFO 19832 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T05:51:36.899+05:30  INFO 19832 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
-2024-05-19T05:51:37.753+05:30  INFO 19832 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-19T05:51:37.766+05:30  INFO 19832 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-19T05:51:37.766+05:30  INFO 19832 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-19T05:51:37.837+05:30  INFO 19832 --- [productrestapi-profiles] [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
-2024-05-19T05:51:37.838+05:30  INFO 19832 --- [productrestapi-profiles] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1889 ms
-2024-05-19T05:51:38.209+05:30  INFO 19832 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T05:51:38.511+05:30  INFO 19832 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b362f1
-2024-05-19T05:51:38.513+05:30  INFO 19832 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T05:51:38.557+05:30  INFO 19832 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T05:51:38.618+05:30  INFO 19832 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T05:51:38.676+05:30  INFO 19832 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T05:51:38.942+05:30  INFO 19832 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T05:51:39.552+05:30  INFO 19832 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T05:51:39.554+05:30  INFO 19832 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T05:51:39.854+05:30  WARN 19832 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T05:51:40.428+05:30  WARN 19832 --- [productrestapi-profiles] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+2026-02-08T13:46:08.777+05:30  INFO 14556 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Starting ProductrestapiCacheApplication using Java 21.0.5 with PID 14556 (D:\Git_Workspace\Bharath\springboot-bharath\productrestapi-cache\target\classes started by prade in D:\Git_Workspace\Bharath\springboot-bharath\productrestapi-cache)
+2026-02-08T13:46:08.792+05:30  INFO 14556 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : The following 1 profile is active: "dev"
+2026-02-08T13:46:10.764+05:30  INFO 14556 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-08T13:46:10.885+05:30  INFO 14556 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2026-02-08T13:46:12.047+05:30  INFO 14556 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-02-08T13:46:12.079+05:30  INFO 14556 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-08T13:46:12.079+05:30  INFO 14556 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-08T13:46:12.193+05:30  INFO 14556 --- [productrestapi-profiles] [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2026-02-08T13:46:12.194+05:30  INFO 14556 --- [productrestapi-profiles] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3282 ms
+2026-02-08T13:46:12.669+05:30  WARN 14556 --- [productrestapi-profiles] [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2026-02-08T13:46:12.772+05:30  INFO 14556 --- [productrestapi-profiles] [main] com.hazelcast.system.logo                : [172.28.0.1]:5701 [dev] [5.5.0] 
+    o    o     o     o---o   o--o o      o---o     o     o----o o--o--o
+    |    |    / \       /         |     /         / \    |         |
+    o----o       o     o   o----o |    o             o   o----o    |
+    |    |  *     \   /           |     \       *     \       |    |
+    o    o *       o o---o   o--o o----o o---o *       o o----o    o
 
-Using generated security password: f2983173-db28-410f-996b-8f341825f5c8
+2026-02-08T13:46:12.773+05:30  INFO 14556 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5701 [dev] [5.5.0] Copyright (c) 2008-2024, Hazelcast, Inc. All Rights Reserved.
+2026-02-08T13:46:12.773+05:30  INFO 14556 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5701 [dev] [5.5.0] Hazelcast Platform 5.5.0 (20240725) starting at [172.28.0.1]:5701
+2026-02-08T13:46:12.774+05:30  INFO 14556 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5701 [dev] [5.5.0] Cluster name: dev
+2026-02-08T13:46:12.774+05:30  INFO 14556 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5701 [dev] [5.5.0] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed. For more information, see the documentation for Integrity Checker.
+2026-02-08T13:46:12.778+05:30  INFO 14556 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5701 [dev] [5.5.0] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2026-02-08T13:46:13.794+05:30  INFO 14556 --- [productrestapi-profiles] [main] com.hazelcast.system.security            : [172.28.0.1]:5701 [dev] [5.5.0] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2026-02-08T13:46:13.887+05:30  INFO 14556 --- [productrestapi-profiles] [main] com.hazelcast.instance.impl.Node         : [172.28.0.1]:5701 [dev] [5.5.0] Using Multicast discovery
+2026-02-08T13:46:14.196+05:30  INFO 14556 --- [productrestapi-profiles] [main] c.h.internal.diagnostics.Diagnostics     : [172.28.0.1]:5701 [dev] [5.5.0] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2026-02-08T13:46:14.204+05:30  INFO 14556 --- [productrestapi-profiles] [main] com.hazelcast.core.LifecycleService      : [172.28.0.1]:5701 [dev] [5.5.0] [172.28.0.1]:5701 is STARTING
+2026-02-08T13:46:16.549+05:30  INFO 14556 --- [productrestapi-profiles] [main] c.h.internal.cluster.ClusterService      : [172.28.0.1]:5701 [dev] [5.5.0] 
 
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
+Members {size:1, ver:1} [
+	Member [172.28.0.1]:5701 - 6878b2fb-a7f6-4062-9bbd-5aa20966d05c this
+]
 
-2024-05-19T05:51:40.576+05:30  INFO 19832 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T05:51:40.604+05:30  INFO 19832 --- [productrestapi-profiles] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7a14d8a4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20673498, org.springframework.security.web.context.SecurityContextHolderFilter@38c9e937, org.springframework.security.web.header.HeaderWriterFilter@2b8a11d7, org.springframework.web.filter.CorsFilter@7a8d6eb3, org.springframework.security.web.csrf.CsrfFilter@4578d654, org.springframework.security.web.authentication.logout.LogoutFilter@3e09067, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4d2bcca8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@217abcc9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@50c99398, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2926144f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@577b2c5f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63541960, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@cc4a0dd, org.springframework.security.web.access.ExceptionTranslationFilter@4bacabc4, org.springframework.security.web.access.intercept.AuthorizationFilter@39d62e47]
-2024-05-19T05:51:40.770+05:30  INFO 19832 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/productapi'
-2024-05-19T05:51:40.779+05:30  INFO 19832 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Started ProductrestapiCacheApplication in 5.252 seconds (process running for 5.678)
-2024-05-19T05:54:05.328+05:30  INFO 19112 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 17.0.9 with PID 19112 (started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T05:54:05.330+05:30  INFO 19112 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "dev"
-2024-05-19T05:54:06.029+05:30  INFO 19112 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T05:54:06.065+05:30  INFO 19112 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
-2024-05-19T05:54:06.600+05:30  INFO 19112 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T05:54:06.855+05:30  INFO 19112 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16ea0f22
-2024-05-19T05:54:06.857+05:30  INFO 19112 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T05:54:06.890+05:30  INFO 19112 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T05:54:06.932+05:30  INFO 19112 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T05:54:06.970+05:30  INFO 19112 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T05:54:07.203+05:30  INFO 19112 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T05:54:07.776+05:30  INFO 19112 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T05:54:07.779+05:30  INFO 19112 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T05:54:08.213+05:30  WARN 19112 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T05:54:08.905+05:30  WARN 19112 --- [productrestapi-profiles] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+2026-02-08T13:46:16.580+05:30  INFO 14556 --- [productrestapi-profiles] [main] com.hazelcast.core.LifecycleService      : [172.28.0.1]:5701 [dev] [5.5.0] [172.28.0.1]:5701 is STARTED
+2026-02-08T13:46:16.605+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [172.28.0.1]:5701 [dev] [5.5.0] The HealthMonitor has detected a high load on the system. For more detailed information,
+enable Diagnostics by adding the property -Dhazelcast.diagnostics.enabled=true
+2026-02-08T13:46:16.624+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [172.28.0.1]:5701 [dev] [5.5.0] processors=12, physical.memory.total=15.7G, physical.memory.free=2.3G, swap.space.total=0, swap.space.free=0, heap.memory.used=53.4M, heap.memory.free=12.9M, heap.memory.total=68.0M, heap.memory.max=3.9G, heap.memory.used/total=78.55%, heap.memory.used/max=1.33%, minor.gc.count=7, minor.gc.time=52ms, major.gc.count=0, major.gc.time=0ms, unknown.gc.count=4, unknown.gc.time=6ms, load.process=0.00%, load.system=100.00%, load.systemAverage=n/a thread.count=57, thread.peakCount=57, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=0, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2026-02-08T13:46:16.870+05:30  INFO 14556 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-08T13:46:17.352+05:30  INFO 14556 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fd4b9ec
+2026-02-08T13:46:17.366+05:30  INFO 14556 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-08T13:46:17.470+05:30  INFO 14556 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-08T13:46:17.603+05:30  INFO 14556 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-08T13:46:17.673+05:30  INFO 14556 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-08T13:46:18.233+05:30  INFO 14556 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-08T13:46:18.451+05:30  INFO 14556 --- [productrestapi-profiles] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.35
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-08T13:46:19.502+05:30  INFO 14556 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-08T13:46:19.507+05:30  INFO 14556 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-08T13:46:20.029+05:30  WARN 14556 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-08T13:46:20.928+05:30  INFO 14556 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-02-08T13:46:21.103+05:30  INFO 14556 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/productapi'
+2026-02-08T13:46:21.141+05:30  INFO 14556 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Started ProductrestapiCacheApplication in 13.421 seconds (process running for 14.386)
+2026-02-08T13:47:52.096+05:30  INFO 20564 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 21.0.5 with PID 20564 (started by prade in D:\Git_Workspace\Bharath\springboot-bharath\productrestapi-cache)
+2026-02-08T13:47:52.098+05:30  INFO 20564 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "dev"
+2026-02-08T13:47:55.086+05:30  INFO 20564 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-08T13:47:55.165+05:30  INFO 20564 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2026-02-08T13:47:56.032+05:30  WARN 20564 --- [productrestapi-profiles] [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2026-02-08T13:47:56.167+05:30  INFO 20564 --- [productrestapi-profiles] [main] com.hazelcast.system.logo                : [172.28.0.1]:5702 [dev] [5.5.0] 
+    o    o     o     o---o   o--o o      o---o     o     o----o o--o--o
+    |    |    / \       /         |     /         / \    |         |
+    o----o       o     o   o----o |    o             o   o----o    |
+    |    |  *     \   /           |     \       *     \       |    |
+    o    o *       o o---o   o--o o----o o---o *       o o----o    o
 
-Using generated security password: 6fdd6690-5c4e-4e30-9f39-52e65f776d48
+2026-02-08T13:47:56.168+05:30  INFO 20564 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Copyright (c) 2008-2024, Hazelcast, Inc. All Rights Reserved.
+2026-02-08T13:47:56.170+05:30  INFO 20564 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Hazelcast Platform 5.5.0 (20240725) starting at [172.28.0.1]:5702
+2026-02-08T13:47:56.171+05:30  INFO 20564 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Cluster name: dev
+2026-02-08T13:47:56.171+05:30  INFO 20564 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed. For more information, see the documentation for Integrity Checker.
+2026-02-08T13:47:56.176+05:30  INFO 20564 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2026-02-08T13:47:57.233+05:30  INFO 20564 --- [productrestapi-profiles] [main] com.hazelcast.system.security            : [172.28.0.1]:5702 [dev] [5.5.0] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2026-02-08T13:47:57.331+05:30  INFO 20564 --- [productrestapi-profiles] [main] com.hazelcast.instance.impl.Node         : [172.28.0.1]:5702 [dev] [5.5.0] Using Multicast discovery
+2026-02-08T13:47:57.744+05:30  INFO 20564 --- [productrestapi-profiles] [main] c.h.internal.diagnostics.Diagnostics     : [172.28.0.1]:5702 [dev] [5.5.0] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2026-02-08T13:47:57.751+05:30  INFO 20564 --- [productrestapi-profiles] [main] com.hazelcast.core.LifecycleService      : [172.28.0.1]:5702 [dev] [5.5.0] [172.28.0.1]:5702 is STARTING
+2026-02-08T13:47:58.027+05:30  INFO 20564 --- [productrestapi-profiles] [main] c.h.i.cluster.impl.MulticastJoiner       : [172.28.0.1]:5702 [dev] [5.5.0] Trying to join to discovered node: [172.28.0.1]:5701
+2026-02-08T13:47:58.094+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.28.0.1]:5701 [dev] [5.5.0] Initialized new cluster connection between /172.28.0.1:5701 and /172.28.0.1:54489
+2026-02-08T13:47:58.104+05:30  INFO 20564 --- [productrestapi-profiles] [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.28.0.1]:5702 [dev] [5.5.0] Initialized new cluster connection between /172.28.0.1:54489 and /172.28.0.1:5701
+2026-02-08T13:47:58.156+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.priority-generic-operation.thread-0] c.h.internal.cluster.ClusterService      : [172.28.0.1]:5701 [dev] [5.5.0] 
 
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
+Members {size:2, ver:2} [
+	Member [172.28.0.1]:5701 - 6878b2fb-a7f6-4062-9bbd-5aa20966d05c this
+	Member [172.28.0.1]:5702 - f990cb7a-83a3-4342-888a-5296da656525
+]
 
-2024-05-19T05:54:09.026+05:30  INFO 19112 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T05:54:09.051+05:30  INFO 19112 --- [productrestapi-profiles] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5852605c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2acfd27b, org.springframework.security.web.context.SecurityContextHolderFilter@7b3d3d3d, org.springframework.security.web.header.HeaderWriterFilter@470c2a7a, org.springframework.web.filter.CorsFilter@5e8359da, org.springframework.security.web.csrf.CsrfFilter@8c54f48, org.springframework.security.web.authentication.logout.LogoutFilter@fcee97c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@119de68f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@79690a0a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@36b6802f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@76d654, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@67857a20, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45cce4c2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d2d5625, org.springframework.security.web.access.ExceptionTranslationFilter@2812368, org.springframework.security.web.access.intercept.AuthorizationFilter@2c2dfde3]
-2024-05-19T05:54:09.212+05:30  INFO 19112 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 4.115 seconds (process running for 4.857)
-2024-05-19T05:54:12.636+05:30  INFO 19112 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T05:54:12.638+05:30  INFO 19112 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T05:54:12.653+05:30  INFO 19112 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T05:57:36.958+05:30  INFO 26292 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 17.0.9 with PID 26292 (started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T05:57:36.959+05:30  INFO 26292 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "testing"
-2024-05-19T05:57:37.648+05:30  INFO 26292 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T05:57:37.680+05:30  INFO 26292 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
-2024-05-19T05:57:38.171+05:30  INFO 26292 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T05:57:38.428+05:30  INFO 26292 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d17914a
-2024-05-19T05:57:38.431+05:30  INFO 26292 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T05:57:38.491+05:30  INFO 26292 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T05:57:38.535+05:30  INFO 26292 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T05:57:38.568+05:30  INFO 26292 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T05:57:38.809+05:30  INFO 26292 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T05:57:39.385+05:30  INFO 26292 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T05:57:39.387+05:30  INFO 26292 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T05:57:39.814+05:30  WARN 26292 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T05:57:40.456+05:30  WARN 26292 --- [productrestapi-profiles] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+2026-02-08T13:47:58.179+05:30  INFO 20564 --- [productrestapi-profiles] [hz.hazel-instance.priority-generic-operation.thread-0] c.h.internal.cluster.ClusterService      : [172.28.0.1]:5702 [dev] [5.5.0] 
 
-Using generated security password: 40a6a0d2-4572-40dd-8ca0-38e09bfb41c0
+Members {size:2, ver:2} [
+	Member [172.28.0.1]:5701 - 6878b2fb-a7f6-4062-9bbd-5aa20966d05c
+	Member [172.28.0.1]:5702 - f990cb7a-83a3-4342-888a-5296da656525 this
+]
 
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
+2026-02-08T13:47:58.206+05:30  INFO 20564 --- [productrestapi-profiles] [main] com.hazelcast.core.LifecycleService      : [172.28.0.1]:5702 [dev] [5.5.0] [172.28.0.1]:5702 is STARTED
+2026-02-08T13:47:58.492+05:30  INFO 20564 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-08T13:47:59.117+05:30  INFO 20564 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c9c91e3
+2026-02-08T13:47:59.120+05:30  INFO 20564 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-08T13:47:59.186+05:30  INFO 20564 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-08T13:47:59.293+05:30  INFO 20564 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-08T13:47:59.400+05:30  INFO 20564 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-08T13:47:59.938+05:30  INFO 20564 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-08T13:48:00.125+05:30  INFO 20564 --- [productrestapi-profiles] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.35
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-08T13:48:01.759+05:30  INFO 20564 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-08T13:48:01.768+05:30  INFO 20564 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-08T13:48:03.146+05:30  WARN 20564 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-08T13:48:07.804+05:30  INFO 20564 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-02-08T13:48:08.076+05:30  INFO 20564 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 16.618 seconds (process running for 18.66)
+2026-02-08T13:48:09.345+05:30  INFO 14556 --- [productrestapi-profiles] [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-08T13:48:09.346+05:30  INFO 14556 --- [productrestapi-profiles] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-08T13:48:09.350+05:30  INFO 14556 --- [productrestapi-profiles] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-02-08T13:48:09.530+05:30  INFO 14556 --- [productrestapi-profiles] [http-nio-8080-exec-2] c.h.i.p.impl.PartitionStateManagerImpl   : [172.28.0.1]:5701 [dev] [5.5.0] Initializing cluster partition table arrangement...
+2026-02-08T13:48:09.706+05:30  INFO 14556 --- [productrestapi-profiles] [http-nio-8080-exec-2] c.t.s.controller.ProductRestController   : finding product by id:3
+2026-02-08T13:48:10.113+05:30  INFO 20564 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-08T13:48:10.124+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.28.0.1]:5701 [dev] [5.5.0] Connection[id=1, /172.28.0.1:5701->/172.28.0.1:54489, qualifier=null, endpoint=[172.28.0.1]:5702, remoteUuid=f990cb7a-83a3-4342-888a-5296da656525, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Connection closed by the other side
+2026-02-08T13:48:10.129+05:30  INFO 20564 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-08T13:48:10.139+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-2] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Connecting to /172.28.0.1:5702, timeout: 10000, bind-any: true
+2026-02-08T13:48:10.177+05:30  INFO 20564 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-08T13:48:12.168+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-2] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Could not connect to: /172.28.0.1:5702. Reason: IOException[Connection refused: getsockopt to address /172.28.0.1:5702]
+2026-02-08T13:48:12.276+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-5] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Connecting to /172.28.0.1:5702, timeout: 10000, bind-any: true
+2026-02-08T13:48:14.320+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-5] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Could not connect to: /172.28.0.1:5702. Reason: IOException[Connection refused: getsockopt to address /172.28.0.1:5702]
+2026-02-08T13:48:16.531+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-5] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Connecting to /172.28.0.1:5702, timeout: 10000, bind-any: true
+2026-02-08T13:48:18.551+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-5] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Could not connect to: /172.28.0.1:5702. Reason: IOException[Connection refused: getsockopt to address /172.28.0.1:5702]
+2026-02-08T13:48:18.552+05:30  WARN 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-5] .h.i.s.t.TcpServerConnectionErrorHandler : [172.28.0.1]:5701 [dev] [5.5.0] Removing connection to endpoint [172.28.0.1]:5702 Cause => java.io.IOException {Connection refused: getsockopt to address /172.28.0.1:5702}, Error-Count: 5
+2026-02-08T13:48:18.552+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-5] c.h.i.cluster.impl.MembershipManager     : [172.28.0.1]:5701 [dev] [5.5.0] Removing Member [172.28.0.1]:5702 - f990cb7a-83a3-4342-888a-5296da656525
+2026-02-08T13:48:18.553+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-5] c.h.i.p.impl.PartitionStateManagerImpl   : [172.28.0.1]:5701 [dev] [5.5.0] Storing snapshot of partition assignments while removing UUID f990cb7a-83a3-4342-888a-5296da656525
+2026-02-08T13:48:18.556+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-5] c.h.internal.cluster.ClusterService      : [172.28.0.1]:5701 [dev] [5.5.0] 
 
-2024-05-19T05:57:40.571+05:30  INFO 26292 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T05:57:40.603+05:30  INFO 26292 --- [productrestapi-profiles] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@283240b0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ec78008, org.springframework.security.web.context.SecurityContextHolderFilter@2298d741, org.springframework.security.web.header.HeaderWriterFilter@619944a7, org.springframework.web.filter.CorsFilter@ac71bd7, org.springframework.security.web.csrf.CsrfFilter@21a1554, org.springframework.security.web.authentication.logout.LogoutFilter@a89dec0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2acfd27b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@647468a7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@64e6cdad, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5b3427c4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4548bfc7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@685e97e0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e6b2641, org.springframework.security.web.access.ExceptionTranslationFilter@3129792a, org.springframework.security.web.access.intercept.AuthorizationFilter@20ed6de]
-2024-05-19T05:57:40.771+05:30  INFO 26292 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 4.04 seconds (process running for 4.71)
-2024-05-19T05:57:41.285+05:30  INFO 19832 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-19T05:57:41.285+05:30  INFO 19832 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-19T05:57:41.287+05:30  INFO 19832 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2024-05-19T05:57:41.445+05:30  INFO 26292 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T05:57:41.448+05:30  INFO 26292 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T05:57:41.458+05:30  INFO 26292 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T05:58:47.768+05:30  INFO 14024 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 17.0.9 with PID 14024 (started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T05:58:47.769+05:30  INFO 14024 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "dev"
-2024-05-19T05:58:48.453+05:30  INFO 14024 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T05:58:48.489+05:30  INFO 14024 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
-2024-05-19T05:58:48.981+05:30  INFO 14024 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T05:58:49.222+05:30  INFO 14024 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16e195cf
-2024-05-19T05:58:49.223+05:30  INFO 14024 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T05:58:49.259+05:30  INFO 14024 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T05:58:49.296+05:30  INFO 14024 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T05:58:49.322+05:30  INFO 14024 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T05:58:49.526+05:30  INFO 14024 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T05:58:50.181+05:30  INFO 14024 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T05:58:50.184+05:30  INFO 14024 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T05:58:50.628+05:30  WARN 14024 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T05:58:51.310+05:30  WARN 14024 --- [productrestapi-profiles] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+Members {size:1, ver:3} [
+	Member [172.28.0.1]:5701 - 6878b2fb-a7f6-4062-9bbd-5aa20966d05c this
+]
 
-Using generated security password: 5734f1d0-ba29-4420-981a-3cd21acc9bcc
+2026-02-08T13:48:18.560+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-1] c.h.t.TransactionManagerService          : [172.28.0.1]:5701 [dev] [5.5.0] Committing/rolling-back live transactions of [172.28.0.1]:5702, UUID: f990cb7a-83a3-4342-888a-5296da656525
+2026-02-08T13:48:18.625+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.migration] c.h.i.p.impl.MigrationManagerImpl        : [172.28.0.1]:5701 [dev] [5.5.0] Partition balance is ok, no need to repartition.
+2026-02-08T13:48:43.732+05:30  INFO 21064 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 21.0.5 with PID 21064 (started by prade in D:\Git_Workspace\Bharath\springboot-bharath\productrestapi-cache)
+2026-02-08T13:48:43.734+05:30  INFO 21064 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "dev"
+2026-02-08T13:48:45.332+05:30  INFO 21064 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-08T13:48:45.404+05:30  INFO 21064 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+2026-02-08T13:48:46.236+05:30  WARN 21064 --- [productrestapi-profiles] [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2026-02-08T13:48:46.337+05:30  INFO 21064 --- [productrestapi-profiles] [main] com.hazelcast.system.logo                : [172.28.0.1]:5702 [dev] [5.5.0] 
+    o    o     o     o---o   o--o o      o---o     o     o----o o--o--o
+    |    |    / \       /         |     /         / \    |         |
+    o----o       o     o   o----o |    o             o   o----o    |
+    |    |  *     \   /           |     \       *     \       |    |
+    o    o *       o o---o   o--o o----o o---o *       o o----o    o
 
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
+2026-02-08T13:48:46.338+05:30  INFO 21064 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Copyright (c) 2008-2024, Hazelcast, Inc. All Rights Reserved.
+2026-02-08T13:48:46.340+05:30  INFO 21064 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Hazelcast Platform 5.5.0 (20240725) starting at [172.28.0.1]:5702
+2026-02-08T13:48:46.340+05:30  INFO 21064 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Cluster name: dev
+2026-02-08T13:48:46.341+05:30  INFO 21064 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed. For more information, see the documentation for Integrity Checker.
+2026-02-08T13:48:46.345+05:30  INFO 21064 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2026-02-08T13:48:47.527+05:30  INFO 21064 --- [productrestapi-profiles] [main] com.hazelcast.system.security            : [172.28.0.1]:5702 [dev] [5.5.0] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2026-02-08T13:48:47.623+05:30  INFO 21064 --- [productrestapi-profiles] [main] com.hazelcast.instance.impl.Node         : [172.28.0.1]:5702 [dev] [5.5.0] Using Multicast discovery
+2026-02-08T13:48:48.084+05:30  INFO 21064 --- [productrestapi-profiles] [main] c.h.internal.diagnostics.Diagnostics     : [172.28.0.1]:5702 [dev] [5.5.0] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2026-02-08T13:48:48.090+05:30  INFO 21064 --- [productrestapi-profiles] [main] com.hazelcast.core.LifecycleService      : [172.28.0.1]:5702 [dev] [5.5.0] [172.28.0.1]:5702 is STARTING
+2026-02-08T13:48:48.372+05:30  INFO 21064 --- [productrestapi-profiles] [main] c.h.i.cluster.impl.MulticastJoiner       : [172.28.0.1]:5702 [dev] [5.5.0] Trying to join to discovered node: [172.28.0.1]:5701
+2026-02-08T13:48:48.407+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.28.0.1]:5701 [dev] [5.5.0] Initialized new cluster connection between /172.28.0.1:5701 and /172.28.0.1:54517
+2026-02-08T13:48:48.412+05:30  INFO 21064 --- [productrestapi-profiles] [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.28.0.1]:5702 [dev] [5.5.0] Initialized new cluster connection between /172.28.0.1:54517 and /172.28.0.1:5701
+2026-02-08T13:48:48.504+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.priority-generic-operation.thread-0] c.h.internal.cluster.ClusterService      : [172.28.0.1]:5701 [dev] [5.5.0] 
 
-2024-05-19T05:58:51.453+05:30  INFO 14024 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T05:58:51.483+05:30  INFO 14024 --- [productrestapi-profiles] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@729a98e9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51c7d472, org.springframework.security.web.context.SecurityContextHolderFilter@273c4b3, org.springframework.security.web.header.HeaderWriterFilter@5016934, org.springframework.web.filter.CorsFilter@3aa4d595, org.springframework.security.web.csrf.CsrfFilter@4283f29b, org.springframework.security.web.authentication.logout.LogoutFilter@647468a7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1676e501, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3c0becae, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@e50e308, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6dacde96, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b57dc2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@238cac6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28ab7ffb, org.springframework.security.web.access.ExceptionTranslationFilter@f359e65, org.springframework.security.web.access.intercept.AuthorizationFilter@13c36d48]
-2024-05-19T05:58:51.630+05:30  INFO 14024 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 4.068 seconds (process running for 4.765)
-2024-05-19T05:58:54.889+05:30  INFO 14024 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T05:58:54.891+05:30  INFO 14024 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T05:58:54.900+05:30  INFO 14024 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T06:00:08.634+05:30  INFO 25536 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 17.0.9 with PID 25536 (started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T06:00:08.635+05:30  INFO 25536 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "testing"
-2024-05-19T06:00:09.295+05:30  INFO 25536 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T06:00:09.335+05:30  INFO 25536 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
-2024-05-19T06:00:09.852+05:30  INFO 25536 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T06:00:10.101+05:30  INFO 25536 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d17914a
-2024-05-19T06:00:10.103+05:30  INFO 25536 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T06:00:10.136+05:30  INFO 25536 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T06:00:10.173+05:30  INFO 25536 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T06:00:10.202+05:30  INFO 25536 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T06:00:10.409+05:30  INFO 25536 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T06:00:10.956+05:30  INFO 25536 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T06:00:10.958+05:30  INFO 25536 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:00:11.376+05:30  WARN 25536 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T06:00:12.043+05:30  WARN 25536 --- [productrestapi-profiles] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+Members {size:2, ver:4} [
+	Member [172.28.0.1]:5701 - 6878b2fb-a7f6-4062-9bbd-5aa20966d05c this
+	Member [172.28.0.1]:5702 - 224d5cde-81ac-48cd-8d76-e0d5d0d17838
+]
 
-Using generated security password: 26c47c31-c3ad-40f4-9ef2-921a9404fa48
+2026-02-08T13:48:48.529+05:30  INFO 21064 --- [productrestapi-profiles] [hz.hazel-instance.priority-generic-operation.thread-0] c.h.internal.cluster.ClusterService      : [172.28.0.1]:5702 [dev] [5.5.0] 
 
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
+Members {size:2, ver:4} [
+	Member [172.28.0.1]:5701 - 6878b2fb-a7f6-4062-9bbd-5aa20966d05c
+	Member [172.28.0.1]:5702 - 224d5cde-81ac-48cd-8d76-e0d5d0d17838 this
+]
 
-2024-05-19T06:00:12.154+05:30  INFO 25536 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T06:00:12.184+05:30  INFO 25536 --- [productrestapi-profiles] [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@283240b0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ec78008, org.springframework.security.web.context.SecurityContextHolderFilter@3c0becae, org.springframework.security.web.header.HeaderWriterFilter@45cce4c2, org.springframework.web.filter.CorsFilter@ac71bd7, org.springframework.security.web.csrf.CsrfFilter@6f13ed1, org.springframework.security.web.authentication.logout.LogoutFilter@2f349170, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@29a51ff1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3b303b78, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@64e6cdad, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1e11d73c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@294aaa6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57e9cd2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e6b2641, org.springframework.security.web.access.ExceptionTranslationFilter@2b57dc2, org.springframework.security.web.access.intercept.AuthorizationFilter@5e8359da]
-2024-05-19T06:00:12.337+05:30  INFO 25536 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 3.904 seconds (process running for 4.597)
-2024-05-19T06:00:12.867+05:30  INFO 25536 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:00:12.869+05:30  INFO 25536 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T06:00:12.876+05:30  INFO 25536 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T06:01:02.670+05:30  INFO 19832 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:01:02.675+05:30  INFO 19832 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T06:01:02.694+05:30  INFO 19832 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T06:01:16.285+05:30  INFO 9304 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Starting ProductrestapiCacheApplication using Java 17.0.9 with PID 9304 (D:\Workspace\springboot-bharath\productrestapi-cache\target\classes started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T06:01:16.287+05:30  INFO 9304 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : The following 1 profile is active: "dev"
-2024-05-19T06:01:17.006+05:30  INFO 9304 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T06:01:17.050+05:30  INFO 9304 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
-2024-05-19T06:01:17.671+05:30  INFO 9304 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-19T06:01:17.680+05:30  INFO 9304 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-19T06:01:17.681+05:30  INFO 9304 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-19T06:01:17.735+05:30  INFO 9304 --- [productrestapi-profiles] [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
-2024-05-19T06:01:17.735+05:30  INFO 9304 --- [productrestapi-profiles] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1402 ms
-2024-05-19T06:01:17.990+05:30  INFO 9304 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T06:01:18.258+05:30  INFO 9304 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d8b7ea9
-2024-05-19T06:01:18.260+05:30  INFO 9304 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T06:01:18.298+05:30  INFO 9304 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T06:01:18.331+05:30  INFO 9304 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T06:01:18.359+05:30  INFO 9304 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T06:01:18.585+05:30  INFO 9304 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T06:01:19.175+05:30  INFO 9304 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T06:01:19.178+05:30  INFO 9304 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:01:19.490+05:30  WARN 9304 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T06:01:20.110+05:30  INFO 9304 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T06:01:20.199+05:30  INFO 9304 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/productapi'
-2024-05-19T06:01:20.212+05:30  INFO 9304 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Started ProductrestapiCacheApplication in 4.233 seconds (process running for 4.504)
-2024-05-19T06:01:27.193+05:30  INFO 6368 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 17.0.9 with PID 6368 (started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T06:01:27.194+05:30  INFO 6368 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "testing"
-2024-05-19T06:01:27.827+05:30  INFO 6368 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T06:01:27.865+05:30  INFO 6368 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interface.
-2024-05-19T06:01:28.318+05:30  INFO 6368 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T06:01:28.559+05:30  INFO 6368 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c17bd0b
-2024-05-19T06:01:28.561+05:30  INFO 6368 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T06:01:28.605+05:30  INFO 6368 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T06:01:28.639+05:30  INFO 6368 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T06:01:28.669+05:30  INFO 6368 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T06:01:28.908+05:30  INFO 6368 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T06:01:29.484+05:30  INFO 6368 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T06:01:29.486+05:30  INFO 6368 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:01:29.903+05:30  WARN 6368 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T06:01:30.603+05:30  INFO 6368 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T06:01:30.671+05:30  INFO 6368 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 3.691 seconds (process running for 4.38)
-2024-05-19T06:01:31.130+05:30  INFO 9304 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-19T06:01:31.130+05:30  INFO 9304 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-19T06:01:31.131+05:30  INFO 9304 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-05-19T06:01:31.176+05:30  INFO 9304 --- [productrestapi-profiles] [http-nio-8080-exec-1] c.t.s.controller.ProductRestController   : finding product by id:3
-2024-05-19T06:01:31.316+05:30  INFO 6368 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:01:31.318+05:30  INFO 6368 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T06:01:31.330+05:30  INFO 6368 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T06:03:01.338+05:30  INFO 27556 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 17.0.9 with PID 27556 (started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T06:03:01.340+05:30  INFO 27556 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "testing"
-2024-05-19T06:03:02.062+05:30  INFO 27556 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T06:03:02.101+05:30  INFO 27556 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
-2024-05-19T06:03:02.578+05:30  INFO 27556 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T06:03:02.829+05:30  INFO 27556 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1eab8437
-2024-05-19T06:03:02.830+05:30  INFO 27556 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T06:03:02.861+05:30  INFO 27556 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T06:03:02.892+05:30  INFO 27556 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T06:03:02.917+05:30  INFO 27556 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T06:03:03.132+05:30  INFO 27556 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T06:03:03.715+05:30  INFO 27556 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T06:03:03.718+05:30  INFO 27556 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:03:04.166+05:30  WARN 27556 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T06:03:04.843+05:30  INFO 27556 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T06:03:04.908+05:30  INFO 27556 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 3.782 seconds (process running for 4.448)
-2024-05-19T06:03:05.402+05:30  INFO 27556 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:03:05.404+05:30  INFO 27556 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T06:03:05.417+05:30  INFO 27556 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T06:05:53.253+05:30  INFO 9304 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:05:53.260+05:30  INFO 9304 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T06:05:53.289+05:30  INFO 9304 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T06:11:47.908+05:30  INFO 11332 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Starting ProductrestapiCacheApplication using Java 17.0.8.1 with PID 11332 (D:\Workspace\springboot-bharath\productrestapi-cache\target\classes started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T06:11:47.909+05:30  INFO 11332 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : The following 1 profile is active: "dev"
-2024-05-19T06:11:48.453+05:30  INFO 11332 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T06:11:48.489+05:30  INFO 11332 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
-2024-05-19T06:11:48.890+05:30  INFO 11332 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-19T06:11:48.898+05:30  INFO 11332 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-19T06:11:48.899+05:30  INFO 11332 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-19T06:11:48.938+05:30  INFO 11332 --- [productrestapi-profiles] [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
-2024-05-19T06:11:48.938+05:30  INFO 11332 --- [productrestapi-profiles] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1004 ms
-2024-05-19T06:11:49.124+05:30  INFO 11332 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T06:11:49.308+05:30  INFO 11332 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2558f65c
-2024-05-19T06:11:49.309+05:30  INFO 11332 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T06:11:49.333+05:30  INFO 11332 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T06:11:49.367+05:30  INFO 11332 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T06:11:49.388+05:30  INFO 11332 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T06:11:49.532+05:30  INFO 11332 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T06:11:50.074+05:30  INFO 11332 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T06:11:50.077+05:30  INFO 11332 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:11:50.273+05:30  WARN 11332 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T06:11:50.722+05:30  INFO 11332 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T06:11:50.796+05:30  INFO 11332 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/productapi'
-2024-05-19T06:11:50.805+05:30  INFO 11332 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Started ProductrestapiCacheApplication in 3.136 seconds (process running for 3.584)
-2024-05-19T06:11:51.582+05:30  INFO 11332 --- [productrestapi-profiles] [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-19T06:11:51.582+05:30  INFO 11332 --- [productrestapi-profiles] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-19T06:11:51.583+05:30  INFO 11332 --- [productrestapi-profiles] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-05-19T06:13:01.326+05:30  INFO 20652 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Starting ProductrestapiCacheApplication using Java 17.0.8.1 with PID 20652 (D:\Workspace\springboot-bharath\productrestapi-cache\target\classes started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T06:13:01.327+05:30  INFO 20652 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : The following 1 profile is active: "dev"
-2024-05-19T06:13:01.808+05:30  INFO 20652 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T06:13:01.840+05:30  INFO 20652 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
-2024-05-19T06:13:02.242+05:30  INFO 20652 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-19T06:13:02.248+05:30  INFO 20652 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-19T06:13:02.248+05:30  INFO 20652 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-19T06:13:02.287+05:30  INFO 20652 --- [productrestapi-profiles] [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
-2024-05-19T06:13:02.287+05:30  INFO 20652 --- [productrestapi-profiles] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 934 ms
-2024-05-19T06:13:02.460+05:30  INFO 20652 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T06:13:02.647+05:30  INFO 20652 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62b786dc
-2024-05-19T06:13:02.649+05:30  INFO 20652 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T06:13:02.673+05:30  INFO 20652 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T06:13:02.709+05:30  INFO 20652 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T06:13:02.729+05:30  INFO 20652 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T06:13:02.870+05:30  INFO 20652 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T06:13:03.381+05:30  INFO 20652 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T06:13:03.384+05:30  INFO 20652 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:13:03.647+05:30  WARN 20652 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T06:13:04.119+05:30  INFO 20652 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T06:13:04.172+05:30  WARN 20652 --- [productrestapi-profiles] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-2024-05-19T06:13:04.177+05:30  INFO 20652 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:13:04.178+05:30  INFO 20652 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T06:13:04.189+05:30  INFO 20652 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T06:13:04.203+05:30  INFO 20652 --- [productrestapi-profiles] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2026-02-08T13:48:48.574+05:30  INFO 21064 --- [productrestapi-profiles] [main] com.hazelcast.core.LifecycleService      : [172.28.0.1]:5702 [dev] [5.5.0] [172.28.0.1]:5702 is STARTED
+2026-02-08T13:48:48.797+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.migration] c.h.i.p.impl.MigrationManagerImpl        : [172.28.0.1]:5701 [dev] [5.5.0] Repartitioning cluster data. Migration tasks count: 271
+2026-02-08T13:48:48.914+05:30  INFO 21064 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-08T13:48:49.452+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.migration] c.h.i.p.impl.MigrationManagerImpl        : [172.28.0.1]:5701 [dev] [5.5.0] All migration tasks have been completed. (repartitionTime=Sun Feb 08 13:48:48 IST 2026, plannedMigrations=271, completedMigrations=271, remainingMigrations=0, totalCompletedMigrations=271)
+2026-02-08T13:48:49.878+05:30  INFO 21064 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b634e24
+2026-02-08T13:48:49.882+05:30  INFO 21064 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-08T13:48:49.957+05:30  INFO 21064 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-08T13:48:50.060+05:30  INFO 21064 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-08T13:48:50.160+05:30  INFO 21064 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-08T13:48:50.611+05:30  INFO 21064 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-08T13:48:50.754+05:30  INFO 21064 --- [productrestapi-profiles] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.35
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-08T13:48:51.954+05:30  INFO 21064 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-08T13:48:51.958+05:30  INFO 21064 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-08T13:48:52.711+05:30  WARN 21064 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-08T13:48:56.949+05:30  INFO 21064 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-02-08T13:48:57.213+05:30  INFO 21064 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 14.103 seconds (process running for 16.266)
+2026-02-08T13:48:58.564+05:30  INFO 21064 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-08T13:48:58.578+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.28.0.1]:5701 [dev] [5.5.0] Connection[id=2, /172.28.0.1:5701->/172.28.0.1:54517, qualifier=null, endpoint=[172.28.0.1]:5702, remoteUuid=224d5cde-81ac-48cd-8d76-e0d5d0d17838, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Connection closed by the other side
+2026-02-08T13:48:58.579+05:30  INFO 21064 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-08T13:48:58.580+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-1] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Connecting to /172.28.0.1:5702, timeout: 10000, bind-any: true
+2026-02-08T13:48:58.623+05:30  INFO 21064 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-08T13:49:00.619+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-1] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Could not connect to: /172.28.0.1:5702. Reason: IOException[Connection refused: getsockopt to address /172.28.0.1:5702]
+2026-02-08T13:49:00.734+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-8] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Connecting to /172.28.0.1:5702, timeout: 10000, bind-any: true
+2026-02-08T13:49:02.771+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-8] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Could not connect to: /172.28.0.1:5702. Reason: IOException[Connection refused: getsockopt to address /172.28.0.1:5702]
+2026-02-08T13:49:09.096+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-2] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Connecting to /172.28.0.1:5702, timeout: 10000, bind-any: true
+2026-02-08T13:49:11.155+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-2] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Could not connect to: /172.28.0.1:5702. Reason: IOException[Connection refused: getsockopt to address /172.28.0.1:5702]
+2026-02-08T13:49:11.156+05:30  WARN 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-2] .h.i.s.t.TcpServerConnectionErrorHandler : [172.28.0.1]:5701 [dev] [5.5.0] Removing connection to endpoint [172.28.0.1]:5702 Cause => java.io.IOException {Connection refused: getsockopt to address /172.28.0.1:5702}, Error-Count: 5
+2026-02-08T13:49:11.157+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-2] c.h.i.cluster.impl.MembershipManager     : [172.28.0.1]:5701 [dev] [5.5.0] Removing Member [172.28.0.1]:5702 - 224d5cde-81ac-48cd-8d76-e0d5d0d17838
+2026-02-08T13:49:11.158+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-2] c.h.i.p.impl.PartitionStateManagerImpl   : [172.28.0.1]:5701 [dev] [5.5.0] Storing snapshot of partition assignments while removing UUID 224d5cde-81ac-48cd-8d76-e0d5d0d17838
+2026-02-08T13:49:11.159+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-2] c.h.internal.cluster.ClusterService      : [172.28.0.1]:5701 [dev] [5.5.0] 
 
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-05-19T06:13:04.221+05:30 ERROR 20652 --- [productrestapi-profiles] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+Members {size:1, ver:5} [
+	Member [172.28.0.1]:5701 - 6878b2fb-a7f6-4062-9bbd-5aa20966d05c this
+]
 
-***************************
-APPLICATION FAILED TO START
-***************************
+2026-02-08T13:49:11.160+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-1] c.h.t.TransactionManagerService          : [172.28.0.1]:5701 [dev] [5.5.0] Committing/rolling-back live transactions of [172.28.0.1]:5702, UUID: 224d5cde-81ac-48cd-8d76-e0d5d0d17838
+2026-02-08T13:49:11.219+05:30  INFO 14556 --- [productrestapi-profiles] [hz.hazel-instance.migration] c.h.i.p.impl.MigrationManagerImpl        : [172.28.0.1]:5701 [dev] [5.5.0] Partition balance is ok, no need to repartition.
+2026-02-08T13:49:36.422+05:30  INFO 14556 --- [productrestapi-profiles] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-08T13:49:36.446+05:30  INFO 14556 --- [productrestapi-profiles] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-02-08T13:49:36.453+05:30  INFO 14556 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-08T13:49:36.458+05:30  INFO 14556 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-08T13:49:36.474+05:30  INFO 14556 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-08T13:50:04.951+05:30  INFO 25112 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 21.0.5 with PID 25112 (started by prade in D:\Git_Workspace\Bharath\springboot-bharath\productrestapi-cache)
+2026-02-08T13:50:04.953+05:30  INFO 25112 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "dev"
+2026-02-08T13:50:06.691+05:30  INFO 25112 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-08T13:50:06.782+05:30  INFO 25112 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2026-02-08T13:50:09.549+05:30  WARN 25112 --- [productrestapi-profiles] [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'cacheManager' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'cacheManager' defined in class path resource [org/springframework/boot/autoconfigure/cache/HazelcastCacheConfiguration.class]: Unsatisfied dependency expressed through method 'cacheManager' parameter 1: Error creating bean with name 'hazelcastInstance' defined in class path resource [org/springframework/boot/autoconfigure/hazelcast/HazelcastServerConfiguration$HazelcastServerConfigConfiguration.class]: Failed to instantiate [com.hazelcast.core.HazelcastInstance]: Factory method 'hazelcastInstance' threw exception with message: Shutdown in progress
+2026-02-08T13:50:14.823+05:30  INFO 16484 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Starting ProductrestapiCacheApplication using Java 21.0.5 with PID 16484 (D:\Git_Workspace\Bharath\springboot-bharath\productrestapi-cache\target\classes started by prade in D:\Git_Workspace\Bharath\springboot-bharath\productrestapi-cache)
+2026-02-08T13:50:14.828+05:30  INFO 16484 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : The following 1 profile is active: "dev"
+2026-02-08T13:50:16.588+05:30  INFO 16484 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-08T13:50:16.699+05:30  INFO 16484 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interface.
+2026-02-08T13:50:17.705+05:30  INFO 16484 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-02-08T13:50:17.723+05:30  INFO 16484 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-08T13:50:17.724+05:30  INFO 16484 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2026-02-08T13:50:17.836+05:30  INFO 16484 --- [productrestapi-profiles] [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
+2026-02-08T13:50:17.837+05:30  INFO 16484 --- [productrestapi-profiles] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2905 ms
+2026-02-08T13:50:18.318+05:30  WARN 16484 --- [productrestapi-profiles] [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2026-02-08T13:50:18.437+05:30  INFO 16484 --- [productrestapi-profiles] [main] com.hazelcast.system.logo                : [172.28.0.1]:5701 [dev] [5.5.0] 
+    o    o     o     o---o   o--o o      o---o     o     o----o o--o--o
+    |    |    / \       /         |     /         / \    |         |
+    o----o       o     o   o----o |    o             o   o----o    |
+    |    |  *     \   /           |     \       *     \       |    |
+    o    o *       o o---o   o--o o----o o---o *       o o----o    o
 
-Description:
+2026-02-08T13:50:18.439+05:30  INFO 16484 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5701 [dev] [5.5.0] Copyright (c) 2008-2024, Hazelcast, Inc. All Rights Reserved.
+2026-02-08T13:50:18.440+05:30  INFO 16484 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5701 [dev] [5.5.0] Hazelcast Platform 5.5.0 (20240725) starting at [172.28.0.1]:5701
+2026-02-08T13:50:18.441+05:30  INFO 16484 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5701 [dev] [5.5.0] Cluster name: dev
+2026-02-08T13:50:18.441+05:30  INFO 16484 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5701 [dev] [5.5.0] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed. For more information, see the documentation for Integrity Checker.
+2026-02-08T13:50:18.444+05:30  INFO 16484 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5701 [dev] [5.5.0] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2026-02-08T13:50:19.460+05:30  INFO 16484 --- [productrestapi-profiles] [main] com.hazelcast.system.security            : [172.28.0.1]:5701 [dev] [5.5.0] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2026-02-08T13:50:19.564+05:30  INFO 16484 --- [productrestapi-profiles] [main] com.hazelcast.instance.impl.Node         : [172.28.0.1]:5701 [dev] [5.5.0] Using Multicast discovery
+2026-02-08T13:50:19.951+05:30  INFO 16484 --- [productrestapi-profiles] [main] c.h.internal.diagnostics.Diagnostics     : [172.28.0.1]:5701 [dev] [5.5.0] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2026-02-08T13:50:19.959+05:30  INFO 16484 --- [productrestapi-profiles] [main] com.hazelcast.core.LifecycleService      : [172.28.0.1]:5701 [dev] [5.5.0] [172.28.0.1]:5701 is STARTING
+2026-02-08T13:50:21.922+05:30  INFO 16484 --- [productrestapi-profiles] [main] c.h.internal.cluster.ClusterService      : [172.28.0.1]:5701 [dev] [5.5.0] 
 
-Web server failed to start. Port 8080 was already in use.
+Members {size:1, ver:1} [
+	Member [172.28.0.1]:5701 - da4890e8-46c8-4b92-9cfd-c874817b7be9 this
+]
 
-Action:
+2026-02-08T13:50:21.967+05:30  INFO 16484 --- [productrestapi-profiles] [main] com.hazelcast.core.LifecycleService      : [172.28.0.1]:5701 [dev] [5.5.0] [172.28.0.1]:5701 is STARTED
+2026-02-08T13:50:22.221+05:30  INFO 16484 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-08T13:50:22.732+05:30  INFO 16484 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36d5c2ce
+2026-02-08T13:50:22.737+05:30  INFO 16484 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-08T13:50:22.856+05:30  INFO 16484 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-08T13:50:22.983+05:30  INFO 16484 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-08T13:50:23.041+05:30  INFO 16484 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-08T13:50:23.508+05:30  INFO 16484 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-08T13:50:23.671+05:30  INFO 16484 --- [productrestapi-profiles] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.35
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-08T13:50:24.793+05:30  INFO 16484 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-08T13:50:24.797+05:30  INFO 16484 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-08T13:50:25.258+05:30  WARN 16484 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-08T13:50:26.154+05:30  INFO 16484 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-02-08T13:50:26.297+05:30  INFO 16484 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/productapi'
+2026-02-08T13:50:26.317+05:30  INFO 16484 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Started ProductrestapiCacheApplication in 12.463 seconds (process running for 13.162)
+2026-02-08T13:51:12.965+05:30  INFO 34688 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 21.0.5 with PID 34688 (started by prade in D:\Git_Workspace\Bharath\springboot-bharath\productrestapi-cache)
+2026-02-08T13:51:12.968+05:30  INFO 34688 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "dev"
+2026-02-08T13:51:14.584+05:30  INFO 34688 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-08T13:51:14.668+05:30  INFO 34688 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interface.
+2026-02-08T13:51:15.497+05:30  WARN 34688 --- [productrestapi-profiles] [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2026-02-08T13:51:15.612+05:30  INFO 34688 --- [productrestapi-profiles] [main] com.hazelcast.system.logo                : [172.28.0.1]:5702 [dev] [5.5.0] 
+    o    o     o     o---o   o--o o      o---o     o     o----o o--o--o
+    |    |    / \       /         |     /         / \    |         |
+    o----o       o     o   o----o |    o             o   o----o    |
+    |    |  *     \   /           |     \       *     \       |    |
+    o    o *       o o---o   o--o o----o o---o *       o o----o    o
 
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+2026-02-08T13:51:15.613+05:30  INFO 34688 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Copyright (c) 2008-2024, Hazelcast, Inc. All Rights Reserved.
+2026-02-08T13:51:15.615+05:30  INFO 34688 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Hazelcast Platform 5.5.0 (20240725) starting at [172.28.0.1]:5702
+2026-02-08T13:51:15.615+05:30  INFO 34688 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Cluster name: dev
+2026-02-08T13:51:15.616+05:30  INFO 34688 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed. For more information, see the documentation for Integrity Checker.
+2026-02-08T13:51:15.620+05:30  INFO 34688 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2026-02-08T13:51:16.603+05:30  INFO 34688 --- [productrestapi-profiles] [main] com.hazelcast.system.security            : [172.28.0.1]:5702 [dev] [5.5.0] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2026-02-08T13:51:16.680+05:30  INFO 34688 --- [productrestapi-profiles] [main] com.hazelcast.instance.impl.Node         : [172.28.0.1]:5702 [dev] [5.5.0] Using Multicast discovery
+2026-02-08T13:51:17.059+05:30  INFO 34688 --- [productrestapi-profiles] [main] c.h.internal.diagnostics.Diagnostics     : [172.28.0.1]:5702 [dev] [5.5.0] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2026-02-08T13:51:17.065+05:30  INFO 34688 --- [productrestapi-profiles] [main] com.hazelcast.core.LifecycleService      : [172.28.0.1]:5702 [dev] [5.5.0] [172.28.0.1]:5702 is STARTING
+2026-02-08T13:51:17.331+05:30  INFO 34688 --- [productrestapi-profiles] [main] c.h.i.cluster.impl.MulticastJoiner       : [172.28.0.1]:5702 [dev] [5.5.0] Trying to join to discovered node: [172.28.0.1]:5701
+2026-02-08T13:51:17.373+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.28.0.1]:5701 [dev] [5.5.0] Initialized new cluster connection between /172.28.0.1:5701 and /172.28.0.1:54070
+2026-02-08T13:51:17.402+05:30  INFO 34688 --- [productrestapi-profiles] [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.28.0.1]:5702 [dev] [5.5.0] Initialized new cluster connection between /172.28.0.1:54070 and /172.28.0.1:5701
+2026-02-08T13:51:17.460+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.priority-generic-operation.thread-0] c.h.internal.cluster.ClusterService      : [172.28.0.1]:5701 [dev] [5.5.0] 
 
-2024-05-19T06:14:31.685+05:30  INFO 1676 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 17.0.8.1 with PID 1676 (started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T06:14:31.686+05:30  INFO 1676 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "dev"
-2024-05-19T06:14:32.328+05:30  INFO 1676 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T06:14:32.365+05:30  INFO 1676 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
-2024-05-19T06:14:32.860+05:30  INFO 1676 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T06:14:33.135+05:30  INFO 1676 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@247bbfba
-2024-05-19T06:14:33.136+05:30  INFO 1676 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T06:14:33.174+05:30  INFO 1676 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T06:14:33.221+05:30  INFO 1676 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T06:14:33.250+05:30  INFO 1676 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T06:14:33.474+05:30  INFO 1676 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T06:14:34.077+05:30  INFO 1676 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T06:14:34.079+05:30  INFO 1676 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:14:34.490+05:30  WARN 1676 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T06:14:35.163+05:30  INFO 1676 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T06:14:35.233+05:30  INFO 1676 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 3.795 seconds (process running for 4.549)
-2024-05-19T06:14:38.570+05:30  INFO 1676 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:14:38.572+05:30  INFO 1676 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T06:14:38.584+05:30  INFO 1676 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T06:15:20.161+05:30  INFO 11676 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Starting ProductrestapiCacheApplication using Java 17.0.8.1 with PID 11676 (D:\Workspace\springboot-bharath\productrestapi-cache\target\classes started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T06:15:20.162+05:30  INFO 11676 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : The following 1 profile is active: "dev"
-2024-05-19T06:15:20.641+05:30  INFO 11676 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T06:15:20.676+05:30  INFO 11676 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interface.
-2024-05-19T06:15:21.056+05:30  INFO 11676 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-19T06:15:21.062+05:30  INFO 11676 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-19T06:15:21.062+05:30  INFO 11676 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-19T06:15:21.103+05:30  INFO 11676 --- [productrestapi-profiles] [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
-2024-05-19T06:15:21.104+05:30  INFO 11676 --- [productrestapi-profiles] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 918 ms
-2024-05-19T06:15:21.310+05:30  INFO 11676 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T06:15:21.491+05:30  INFO 11676 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40017e98
-2024-05-19T06:15:21.493+05:30  INFO 11676 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T06:15:21.516+05:30  INFO 11676 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T06:15:21.549+05:30  INFO 11676 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T06:15:21.569+05:30  INFO 11676 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T06:15:21.713+05:30  INFO 11676 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T06:15:22.219+05:30  INFO 11676 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T06:15:22.221+05:30  INFO 11676 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:15:22.426+05:30  WARN 11676 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T06:15:22.861+05:30  INFO 11676 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T06:15:22.915+05:30  WARN 11676 --- [productrestapi-profiles] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-2024-05-19T06:15:22.917+05:30  INFO 11676 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:15:22.919+05:30  INFO 11676 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T06:15:22.927+05:30  INFO 11676 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T06:15:22.938+05:30  INFO 11676 --- [productrestapi-profiles] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+Members {size:2, ver:2} [
+	Member [172.28.0.1]:5701 - da4890e8-46c8-4b92-9cfd-c874817b7be9 this
+	Member [172.28.0.1]:5702 - 3af248f7-12bb-4ae1-ab65-65176926dc26
+]
 
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-05-19T06:15:22.948+05:30 ERROR 11676 --- [productrestapi-profiles] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+2026-02-08T13:51:17.475+05:30  INFO 34688 --- [productrestapi-profiles] [hz.hazel-instance.priority-generic-operation.thread-0] c.h.internal.cluster.ClusterService      : [172.28.0.1]:5702 [dev] [5.5.0] 
 
-***************************
-APPLICATION FAILED TO START
-***************************
+Members {size:2, ver:2} [
+	Member [172.28.0.1]:5701 - da4890e8-46c8-4b92-9cfd-c874817b7be9
+	Member [172.28.0.1]:5702 - 3af248f7-12bb-4ae1-ab65-65176926dc26 this
+]
 
-Description:
+2026-02-08T13:51:17.491+05:30  INFO 34688 --- [productrestapi-profiles] [main] com.hazelcast.core.LifecycleService      : [172.28.0.1]:5702 [dev] [5.5.0] [172.28.0.1]:5702 is STARTED
+2026-02-08T13:51:17.778+05:30  INFO 34688 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-08T13:51:18.369+05:30  INFO 34688 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21bd6fd1
+2026-02-08T13:51:18.371+05:30  INFO 34688 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-08T13:51:18.443+05:30  INFO 34688 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-08T13:51:18.553+05:30  INFO 34688 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-08T13:51:18.631+05:30  INFO 34688 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-08T13:51:19.233+05:30  INFO 34688 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-08T13:51:19.409+05:30  INFO 34688 --- [productrestapi-profiles] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.35
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-08T13:51:20.466+05:30  INFO 34688 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-08T13:51:20.471+05:30  INFO 34688 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-08T13:51:21.158+05:30  WARN 34688 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-08T13:51:22.179+05:30  INFO 34688 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-02-08T13:51:22.319+05:30  INFO 34688 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 9.897 seconds (process running for 12.256)
+2026-02-08T13:51:23.101+05:30  INFO 16484 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-08T13:51:23.102+05:30  INFO 16484 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-08T13:51:23.104+05:30  INFO 16484 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-02-08T13:51:23.235+05:30  INFO 16484 --- [productrestapi-profiles] [http-nio-8080-exec-1] c.h.i.p.impl.PartitionStateManagerImpl   : [172.28.0.1]:5701 [dev] [5.5.0] Initializing cluster partition table arrangement...
+2026-02-08T13:51:23.343+05:30  INFO 16484 --- [productrestapi-profiles] [http-nio-8080-exec-1] c.t.s.controller.ProductRestController   : finding product by id:3
+2026-02-08T13:51:23.714+05:30  INFO 34688 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-08T13:51:23.717+05:30  INFO 34688 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-08T13:51:23.727+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.28.0.1]:5701 [dev] [5.5.0] Connection[id=1, /172.28.0.1:5701->/172.28.0.1:54070, qualifier=null, endpoint=[172.28.0.1]:5702, remoteUuid=3af248f7-12bb-4ae1-ab65-65176926dc26, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Connection closed by the other side
+2026-02-08T13:51:23.754+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-4] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Connecting to /172.28.0.1:5702, timeout: 10000, bind-any: true
+2026-02-08T13:51:23.757+05:30  INFO 34688 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-08T13:51:25.780+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-4] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Could not connect to: /172.28.0.1:5702. Reason: IOException[Connection refused: getsockopt to address /172.28.0.1:5702]
+2026-02-08T13:51:25.891+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-4] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Connecting to /172.28.0.1:5702, timeout: 10000, bind-any: true
+2026-02-08T13:51:27.911+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-4] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Could not connect to: /172.28.0.1:5702. Reason: IOException[Connection refused: getsockopt to address /172.28.0.1:5702]
+2026-02-08T13:51:28.021+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-4] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Connecting to /172.28.0.1:5702, timeout: 10000, bind-any: true
+2026-02-08T13:51:30.067+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-4] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Could not connect to: /172.28.0.1:5702. Reason: IOException[Connection refused: getsockopt to address /172.28.0.1:5702]
+2026-02-08T13:51:30.068+05:30  WARN 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-4] .h.i.s.t.TcpServerConnectionErrorHandler : [172.28.0.1]:5701 [dev] [5.5.0] Removing connection to endpoint [172.28.0.1]:5702 Cause => java.io.IOException {Connection refused: getsockopt to address /172.28.0.1:5702}, Error-Count: 5
+2026-02-08T13:51:30.070+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-4] c.h.i.cluster.impl.MembershipManager     : [172.28.0.1]:5701 [dev] [5.5.0] Removing Member [172.28.0.1]:5702 - 3af248f7-12bb-4ae1-ab65-65176926dc26
+2026-02-08T13:51:30.071+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-4] c.h.i.p.impl.PartitionStateManagerImpl   : [172.28.0.1]:5701 [dev] [5.5.0] Storing snapshot of partition assignments while removing UUID 3af248f7-12bb-4ae1-ab65-65176926dc26
+2026-02-08T13:51:30.073+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-4] c.h.internal.cluster.ClusterService      : [172.28.0.1]:5701 [dev] [5.5.0] 
 
-Web server failed to start. Port 8080 was already in use.
+Members {size:1, ver:3} [
+	Member [172.28.0.1]:5701 - da4890e8-46c8-4b92-9cfd-c874817b7be9 this
+]
 
-Action:
+2026-02-08T13:51:30.079+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-1] c.h.t.TransactionManagerService          : [172.28.0.1]:5701 [dev] [5.5.0] Committing/rolling-back live transactions of [172.28.0.1]:5702, UUID: 3af248f7-12bb-4ae1-ab65-65176926dc26
+2026-02-08T13:51:30.233+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.migration] c.h.i.p.impl.MigrationManagerImpl        : [172.28.0.1]:5701 [dev] [5.5.0] Partition balance is ok, no need to repartition.
+2026-02-08T13:51:43.512+05:30  INFO 31328 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 21.0.5 with PID 31328 (started by prade in D:\Git_Workspace\Bharath\springboot-bharath\productrestapi-cache)
+2026-02-08T13:51:43.514+05:30  INFO 31328 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "dev"
+2026-02-08T13:51:45.055+05:30  INFO 31328 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-08T13:51:45.133+05:30  INFO 31328 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+2026-02-08T13:51:46.014+05:30  WARN 31328 --- [productrestapi-profiles] [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2026-02-08T13:51:46.132+05:30  INFO 31328 --- [productrestapi-profiles] [main] com.hazelcast.system.logo                : [172.28.0.1]:5702 [dev] [5.5.0] 
+    o    o     o     o---o   o--o o      o---o     o     o----o o--o--o
+    |    |    / \       /         |     /         / \    |         |
+    o----o       o     o   o----o |    o             o   o----o    |
+    |    |  *     \   /           |     \       *     \       |    |
+    o    o *       o o---o   o--o o----o o---o *       o o----o    o
 
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+2026-02-08T13:51:46.133+05:30  INFO 31328 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Copyright (c) 2008-2024, Hazelcast, Inc. All Rights Reserved.
+2026-02-08T13:51:46.134+05:30  INFO 31328 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Hazelcast Platform 5.5.0 (20240725) starting at [172.28.0.1]:5702
+2026-02-08T13:51:46.135+05:30  INFO 31328 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Cluster name: dev
+2026-02-08T13:51:46.135+05:30  INFO 31328 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] Integrity Checker is disabled. Fail-fast on corrupted executables will not be performed. For more information, see the documentation for Integrity Checker.
+2026-02-08T13:51:46.138+05:30  INFO 31328 --- [productrestapi-profiles] [main] com.hazelcast.system                     : [172.28.0.1]:5702 [dev] [5.5.0] The Jet engine is disabled.
+To enable the Jet engine on the members, do one of the following:
+  - Change member config using Java API: config.getJetConfig().setEnabled(true)
+  - Change XML/YAML configuration property: Set hazelcast.jet.enabled to true
+  - Add system property: -Dhz.jet.enabled=true (for Hazelcast embedded, works only when loading config via Config.load)
+  - Add environment variable: HZ_JET_ENABLED=true (recommended when running container image. For Hazelcast embedded, works only when loading config via Config.load)
+2026-02-08T13:51:47.275+05:30  INFO 31328 --- [productrestapi-profiles] [main] com.hazelcast.system.security            : [172.28.0.1]:5702 [dev] [5.5.0] Enable DEBUG/FINE log level for log category com.hazelcast.system.security  or use -Dhazelcast.security.recommendations system property to see security recommendations and the status of current config.
+2026-02-08T13:51:47.368+05:30  INFO 31328 --- [productrestapi-profiles] [main] com.hazelcast.instance.impl.Node         : [172.28.0.1]:5702 [dev] [5.5.0] Using Multicast discovery
+2026-02-08T13:51:47.744+05:30  INFO 31328 --- [productrestapi-profiles] [main] c.h.internal.diagnostics.Diagnostics     : [172.28.0.1]:5702 [dev] [5.5.0] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2026-02-08T13:51:47.751+05:30  INFO 31328 --- [productrestapi-profiles] [main] com.hazelcast.core.LifecycleService      : [172.28.0.1]:5702 [dev] [5.5.0] [172.28.0.1]:5702 is STARTING
+2026-02-08T13:51:47.958+05:30  INFO 31328 --- [productrestapi-profiles] [main] c.h.i.cluster.impl.MulticastJoiner       : [172.28.0.1]:5702 [dev] [5.5.0] Trying to join to discovered node: [172.28.0.1]:5701
+2026-02-08T13:51:47.985+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.IO.thread-in-2] c.h.i.server.tcp.TcpServerConnection     : [172.28.0.1]:5701 [dev] [5.5.0] Initialized new cluster connection between /172.28.0.1:5701 and /172.28.0.1:54095
+2026-02-08T13:51:47.990+05:30  INFO 31328 --- [productrestapi-profiles] [hz.hazel-instance.IO.thread-in-0] c.h.i.server.tcp.TcpServerConnection     : [172.28.0.1]:5702 [dev] [5.5.0] Initialized new cluster connection between /172.28.0.1:54095 and /172.28.0.1:5701
+2026-02-08T13:51:48.082+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.generic-operation.thread-2] c.h.internal.cluster.ClusterService      : [172.28.0.1]:5701 [dev] [5.5.0] 
 
-2024-05-19T06:15:51.624+05:30  INFO 13088 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Starting ProductrestapiCacheApplication using Java 17.0.9 with PID 13088 (D:\Workspace\springboot-bharath\productrestapi-cache\target\classes started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T06:15:51.627+05:30  INFO 13088 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : The following 1 profile is active: "dev"
-2024-05-19T06:15:52.372+05:30  INFO 13088 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T06:15:52.413+05:30  INFO 13088 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
-2024-05-19T06:15:53.028+05:30  INFO 13088 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-19T06:15:53.038+05:30  INFO 13088 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-19T06:15:53.038+05:30  INFO 13088 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-19T06:15:53.095+05:30  INFO 13088 --- [productrestapi-profiles] [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
-2024-05-19T06:15:53.096+05:30  INFO 13088 --- [productrestapi-profiles] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1416 ms
-2024-05-19T06:15:53.356+05:30  INFO 13088 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T06:15:53.594+05:30  INFO 13088 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f986501
-2024-05-19T06:15:53.597+05:30  INFO 13088 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T06:15:53.631+05:30  INFO 13088 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T06:15:53.663+05:30  INFO 13088 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T06:15:53.694+05:30  INFO 13088 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T06:15:53.913+05:30  INFO 13088 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T06:15:54.509+05:30  INFO 13088 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T06:15:54.511+05:30  INFO 13088 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:15:54.850+05:30  WARN 13088 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T06:15:55.386+05:30  INFO 13088 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T06:15:55.452+05:30  WARN 13088 --- [productrestapi-profiles] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-2024-05-19T06:15:55.454+05:30  INFO 13088 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:15:55.456+05:30  INFO 13088 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T06:15:55.465+05:30  INFO 13088 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T06:15:55.482+05:30  INFO 13088 --- [productrestapi-profiles] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+Members {size:2, ver:4} [
+	Member [172.28.0.1]:5701 - da4890e8-46c8-4b92-9cfd-c874817b7be9 this
+	Member [172.28.0.1]:5702 - 7993f760-867d-4eba-b72b-aad1b09ef194
+]
 
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2024-05-19T06:15:55.498+05:30 ERROR 13088 --- [productrestapi-profiles] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+2026-02-08T13:51:48.114+05:30  INFO 31328 --- [productrestapi-profiles] [hz.hazel-instance.generic-operation.thread-2] c.h.internal.cluster.ClusterService      : [172.28.0.1]:5702 [dev] [5.5.0] 
 
-***************************
-APPLICATION FAILED TO START
-***************************
+Members {size:2, ver:4} [
+	Member [172.28.0.1]:5701 - da4890e8-46c8-4b92-9cfd-c874817b7be9
+	Member [172.28.0.1]:5702 - 7993f760-867d-4eba-b72b-aad1b09ef194 this
+]
 
-Description:
+2026-02-08T13:51:48.134+05:30  INFO 31328 --- [productrestapi-profiles] [main] com.hazelcast.core.LifecycleService      : [172.28.0.1]:5702 [dev] [5.5.0] [172.28.0.1]:5702 is STARTED
+2026-02-08T13:51:48.359+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.migration] c.h.i.p.impl.MigrationManagerImpl        : [172.28.0.1]:5701 [dev] [5.5.0] Repartitioning cluster data. Migration tasks count: 271
+2026-02-08T13:51:48.392+05:30  INFO 31328 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-08T13:51:48.960+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.migration] c.h.i.p.impl.MigrationManagerImpl        : [172.28.0.1]:5701 [dev] [5.5.0] All migration tasks have been completed. (repartitionTime=Sun Feb 08 13:51:48 IST 2026, plannedMigrations=271, completedMigrations=271, remainingMigrations=0, totalCompletedMigrations=271)
+2026-02-08T13:51:49.287+05:30  INFO 31328 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43efe064
+2026-02-08T13:51:49.290+05:30  INFO 31328 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-08T13:51:49.354+05:30  INFO 31328 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-08T13:51:49.458+05:30  INFO 31328 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-08T13:51:49.530+05:30  INFO 31328 --- [productrestapi-profiles] [hz.hazel-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [172.28.0.1]:5702 [dev] [5.5.0] The HealthMonitor has detected a high load on the system. For more detailed information,
+enable Diagnostics by adding the property -Dhazelcast.diagnostics.enabled=true
+2026-02-08T13:51:49.534+05:30  INFO 31328 --- [productrestapi-profiles] [hz.hazel-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [172.28.0.1]:5702 [dev] [5.5.0] processors=12, physical.memory.total=15.7G, physical.memory.free=2.1G, swap.space.total=0, swap.space.free=0, heap.memory.used=69.2M, heap.memory.free=32.6M, heap.memory.total=94.0M, heap.memory.max=3.9G, heap.memory.used/total=73.57%, heap.memory.used/max=1.72%, minor.gc.count=9, minor.gc.time=62ms, major.gc.count=0, major.gc.time=0ms, unknown.gc.count=6, unknown.gc.time=13ms, load.process=0.00%, load.system=100.00%, load.systemAverage=n/a thread.count=58, thread.peakCount=58, cluster.timeDiff=-28, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1158, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0.00%, operations.pending.invocations.count=0, proxy.count=1, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2026-02-08T13:51:49.564+05:30  INFO 31328 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-08T13:51:50.053+05:30  INFO 31328 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-08T13:51:50.191+05:30  INFO 31328 --- [productrestapi-profiles] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.35
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-08T13:51:51.269+05:30  INFO 31328 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-08T13:51:51.272+05:30  INFO 31328 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-08T13:51:51.873+05:30  WARN 31328 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-08T13:51:52.848+05:30  INFO 31328 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-02-08T13:51:52.977+05:30  INFO 31328 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 10.039 seconds (process running for 12.104)
+2026-02-08T13:51:53.794+05:30  INFO 31328 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-08T13:51:53.808+05:30  INFO 31328 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-08T13:51:53.814+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.IO.thread-in-2] c.h.i.server.tcp.TcpServerConnection     : [172.28.0.1]:5701 [dev] [5.5.0] Connection[id=2, /172.28.0.1:5701->/172.28.0.1:54095, qualifier=null, endpoint=[172.28.0.1]:5702, remoteUuid=7993f760-867d-4eba-b72b-aad1b09ef194, alive=false, connectionType=MEMBER, planeIndex=0] closed. Reason: Connection closed by the other side
+2026-02-08T13:51:53.817+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-14] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Connecting to /172.28.0.1:5702, timeout: 10000, bind-any: true
+2026-02-08T13:51:53.854+05:30  INFO 31328 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-08T13:51:55.849+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-14] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Could not connect to: /172.28.0.1:5702. Reason: IOException[Connection refused: getsockopt to address /172.28.0.1:5702]
+2026-02-08T13:51:55.960+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-14] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Connecting to /172.28.0.1:5702, timeout: 10000, bind-any: true
+2026-02-08T13:51:57.998+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-14] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Could not connect to: /172.28.0.1:5702. Reason: IOException[Connection refused: getsockopt to address /172.28.0.1:5702]
+2026-02-08T13:52:02.285+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-14] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Connecting to /172.28.0.1:5702, timeout: 10000, bind-any: true
+2026-02-08T13:52:04.325+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-14] c.h.i.server.tcp.TcpServerConnector      : [172.28.0.1]:5701 [dev] [5.5.0] Could not connect to: /172.28.0.1:5702. Reason: IOException[Connection refused: getsockopt to address /172.28.0.1:5702]
+2026-02-08T13:52:04.326+05:30  WARN 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-14] .h.i.s.t.TcpServerConnectionErrorHandler : [172.28.0.1]:5701 [dev] [5.5.0] Removing connection to endpoint [172.28.0.1]:5702 Cause => java.io.IOException {Connection refused: getsockopt to address /172.28.0.1:5702}, Error-Count: 5
+2026-02-08T13:52:04.327+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-14] c.h.i.cluster.impl.MembershipManager     : [172.28.0.1]:5701 [dev] [5.5.0] Removing Member [172.28.0.1]:5702 - 7993f760-867d-4eba-b72b-aad1b09ef194
+2026-02-08T13:52:04.328+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-14] c.h.i.p.impl.PartitionStateManagerImpl   : [172.28.0.1]:5701 [dev] [5.5.0] Storing snapshot of partition assignments while removing UUID 7993f760-867d-4eba-b72b-aad1b09ef194
+2026-02-08T13:52:04.329+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-14] c.h.internal.cluster.ClusterService      : [172.28.0.1]:5701 [dev] [5.5.0] 
 
-Web server failed to start. Port 8080 was already in use.
+Members {size:1, ver:5} [
+	Member [172.28.0.1]:5701 - da4890e8-46c8-4b92-9cfd-c874817b7be9 this
+]
 
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-2024-05-19T06:19:32.801+05:30  INFO 11332 --- [productrestapi-profiles] [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2024-05-19T06:19:32.813+05:30  INFO 11332 --- [productrestapi-profiles] [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:19:32.814+05:30  INFO 11332 --- [productrestapi-profiles] [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T06:19:32.821+05:30  INFO 11332 --- [productrestapi-profiles] [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T06:22:35.852+05:30  INFO 11792 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Starting ProductrestapiCacheApplication using Java 17.0.9 with PID 11792 (D:\Workspace\springboot-bharath\productrestapi-cache\target\classes started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T06:22:35.854+05:30  INFO 11792 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : The following 1 profile is active: "dev"
-2024-05-19T06:22:36.895+05:30  INFO 11792 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T06:22:36.957+05:30  INFO 11792 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
-2024-05-19T06:22:37.839+05:30  INFO 11792 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-19T06:22:37.856+05:30  INFO 11792 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-19T06:22:37.856+05:30  INFO 11792 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-19T06:22:37.927+05:30  INFO 11792 --- [productrestapi-profiles] [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
-2024-05-19T06:22:37.928+05:30  INFO 11792 --- [productrestapi-profiles] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2018 ms
-2024-05-19T06:22:38.320+05:30  INFO 11792 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T06:22:38.690+05:30  INFO 11792 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15d88c10
-2024-05-19T06:22:38.691+05:30  INFO 11792 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T06:22:38.740+05:30  INFO 11792 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T06:22:38.810+05:30  INFO 11792 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T06:22:38.865+05:30  INFO 11792 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T06:22:39.193+05:30  INFO 11792 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T06:22:39.878+05:30  INFO 11792 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T06:22:39.881+05:30  INFO 11792 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:22:40.344+05:30  WARN 11792 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T06:22:41.157+05:30  INFO 11792 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T06:22:41.261+05:30  INFO 11792 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/productapi'
-2024-05-19T06:22:41.272+05:30  INFO 11792 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Started ProductrestapiCacheApplication in 5.914 seconds (process running for 6.458)
-2024-05-19T06:22:52.895+05:30  INFO 1508 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 17.0.9 with PID 1508 (started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T06:22:52.897+05:30  INFO 1508 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "testing"
-2024-05-19T06:22:53.626+05:30  INFO 1508 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T06:22:53.678+05:30  INFO 1508 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
-2024-05-19T06:22:54.273+05:30  INFO 1508 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T06:22:54.566+05:30  INFO 1508 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ce15112
-2024-05-19T06:22:54.568+05:30  INFO 1508 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T06:22:54.617+05:30  INFO 1508 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T06:22:54.663+05:30  INFO 1508 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T06:22:54.716+05:30  INFO 1508 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T06:22:54.998+05:30  INFO 1508 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T06:22:55.698+05:30  INFO 1508 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T06:22:55.701+05:30  INFO 1508 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:22:56.226+05:30  WARN 1508 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T06:22:57.070+05:30  INFO 1508 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T06:22:57.150+05:30  INFO 1508 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 4.509 seconds (process running for 5.394)
-2024-05-19T06:22:57.807+05:30  INFO 11792 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-19T06:22:57.808+05:30  INFO 11792 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-19T06:22:57.809+05:30  INFO 11792 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-05-19T06:22:57.857+05:30  INFO 11792 --- [productrestapi-profiles] [http-nio-8080-exec-1] c.t.s.controller.ProductRestController   : finding product by id:3
-2024-05-19T06:22:58.000+05:30  INFO 1508 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T06:22:58.005+05:30  INFO 1508 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T06:22:58.023+05:30  INFO 1508 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T06:53:01.062+05:30  WARN 11792 --- [productrestapi-profiles] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m22s236ms118µs500ns).
-2024-05-19T08:11:22.031+05:30  WARN 11792 --- [productrestapi-profiles] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h11m47s841ms693µs200ns).
-2024-05-19T08:11:27.256+05:30  INFO 11792 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:11:27.262+05:30  INFO 11792 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T08:11:27.280+05:30  INFO 11792 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T08:20:02.691+05:30  INFO 4424 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 17.0.9 with PID 4424 (started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T08:20:02.692+05:30  INFO 4424 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "testing"
-2024-05-19T08:20:03.538+05:30  INFO 4424 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T08:20:03.589+05:30  INFO 4424 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
-2024-05-19T08:20:04.242+05:30  INFO 4424 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T08:20:04.554+05:30  INFO 4424 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c96403e
-2024-05-19T08:20:04.556+05:30  INFO 4424 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T08:20:04.604+05:30  INFO 4424 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T08:20:04.651+05:30  INFO 4424 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T08:20:04.700+05:30  INFO 4424 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T08:20:04.967+05:30  INFO 4424 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T08:20:05.697+05:30  INFO 4424 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T08:20:05.700+05:30  INFO 4424 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:20:06.258+05:30  WARN 4424 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T08:20:07.109+05:30  INFO 4424 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T08:20:07.184+05:30  INFO 4424 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 4.76 seconds (process running for 5.642)
-2024-05-19T08:20:07.866+05:30  INFO 4424 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:20:07.869+05:30  INFO 4424 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T08:20:07.883+05:30  INFO 4424 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T08:20:32.219+05:30  INFO 21772 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Starting ProductrestapiCacheApplication using Java 17.0.9 with PID 21772 (D:\Workspace\springboot-bharath\productrestapi-cache\target\classes started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T08:20:32.223+05:30  INFO 21772 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : The following 1 profile is active: "dev"
-2024-05-19T08:20:33.120+05:30  INFO 21772 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T08:20:33.173+05:30  INFO 21772 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
-2024-05-19T08:20:33.921+05:30  INFO 21772 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-19T08:20:33.936+05:30  INFO 21772 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-19T08:20:33.936+05:30  INFO 21772 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-19T08:20:34.009+05:30  INFO 21772 --- [productrestapi-profiles] [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
-2024-05-19T08:20:34.010+05:30  INFO 21772 --- [productrestapi-profiles] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1725 ms
-2024-05-19T08:20:34.323+05:30  INFO 21772 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T08:20:34.613+05:30  INFO 21772 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31f31b20
-2024-05-19T08:20:34.614+05:30  INFO 21772 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T08:20:34.662+05:30  INFO 21772 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T08:20:34.707+05:30  INFO 21772 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T08:20:34.772+05:30  INFO 21772 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T08:20:35.005+05:30  INFO 21772 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T08:20:35.731+05:30  INFO 21772 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T08:20:35.735+05:30  INFO 21772 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:20:36.091+05:30  WARN 21772 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T08:20:36.693+05:30  INFO 21772 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T08:20:36.780+05:30  INFO 21772 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/productapi'
-2024-05-19T08:20:36.795+05:30  INFO 21772 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Started ProductrestapiCacheApplication in 5.034 seconds (process running for 5.367)
-2024-05-19T08:20:47.019+05:30  INFO 20004 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 17.0.9 with PID 20004 (started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T08:20:47.020+05:30  INFO 20004 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "testing"
-2024-05-19T08:20:47.848+05:30  INFO 20004 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T08:20:47.910+05:30  INFO 20004 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
-2024-05-19T08:20:48.540+05:30  INFO 20004 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T08:20:48.870+05:30  INFO 20004 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d421fe
-2024-05-19T08:20:48.872+05:30  INFO 20004 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T08:20:48.913+05:30  INFO 20004 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T08:20:48.958+05:30  INFO 20004 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T08:20:49.012+05:30  INFO 20004 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T08:20:49.279+05:30  INFO 20004 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T08:20:49.998+05:30  INFO 20004 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T08:20:50.001+05:30  INFO 20004 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:20:50.516+05:30  WARN 20004 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T08:20:51.314+05:30  INFO 20004 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T08:20:51.388+05:30  INFO 20004 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 4.661 seconds (process running for 5.556)
-2024-05-19T08:20:52.034+05:30  INFO 21772 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-19T08:20:52.034+05:30  INFO 21772 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-19T08:20:52.036+05:30  INFO 21772 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2024-05-19T08:20:52.092+05:30  INFO 21772 --- [productrestapi-profiles] [http-nio-8080-exec-1] c.t.s.controller.ProductRestController   : finding product by id:3
-2024-05-19T08:20:52.221+05:30  INFO 20004 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:20:52.224+05:30  INFO 20004 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T08:20:52.239+05:30  INFO 20004 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T08:21:04.312+05:30  INFO 3912 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 17.0.9 with PID 3912 (started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T08:21:04.314+05:30  INFO 3912 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "testing"
-2024-05-19T08:21:05.157+05:30  INFO 3912 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T08:21:05.208+05:30  INFO 3912 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
-2024-05-19T08:21:05.817+05:30  INFO 3912 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T08:21:06.144+05:30  INFO 3912 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c758a2d
-2024-05-19T08:21:06.147+05:30  INFO 3912 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T08:21:06.207+05:30  INFO 3912 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T08:21:06.283+05:30  INFO 3912 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T08:21:06.321+05:30  INFO 3912 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T08:21:06.599+05:30  INFO 3912 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T08:21:07.297+05:30  INFO 3912 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T08:21:07.303+05:30  INFO 3912 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:21:07.900+05:30  WARN 3912 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T08:21:08.694+05:30  INFO 3912 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T08:21:08.770+05:30  INFO 3912 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 4.744 seconds (process running for 5.652)
-2024-05-19T08:21:09.412+05:30  INFO 3912 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:21:09.416+05:30  INFO 3912 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T08:21:09.433+05:30  INFO 3912 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T08:21:37.095+05:30  INFO 23368 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 17.0.9 with PID 23368 (started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T08:21:37.096+05:30  INFO 23368 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "dev"
-2024-05-19T08:21:37.962+05:30  INFO 23368 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T08:21:38.022+05:30  INFO 23368 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
-2024-05-19T08:21:38.640+05:30  INFO 23368 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T08:21:38.970+05:30  INFO 23368 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6164e137
-2024-05-19T08:21:38.973+05:30  INFO 23368 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T08:21:39.018+05:30  INFO 23368 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T08:21:39.065+05:30  INFO 23368 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T08:21:39.123+05:30  INFO 23368 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T08:21:39.397+05:30  INFO 23368 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T08:21:40.187+05:30  INFO 23368 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T08:21:40.190+05:30  INFO 23368 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:21:40.744+05:30  WARN 23368 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T08:21:41.564+05:30  INFO 23368 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T08:21:41.648+05:30  INFO 23368 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 4.828 seconds (process running for 5.785)
-2024-05-19T08:21:45.009+05:30  INFO 23368 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:21:45.012+05:30  INFO 23368 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T08:21:45.025+05:30  INFO 23368 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T08:21:50.062+05:30  INFO 21772 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:21:50.064+05:30  INFO 21772 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T08:21:50.074+05:30  INFO 21772 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T08:21:51.866+05:30  INFO 21428 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Starting ProductrestapiCacheApplication using Java 17.0.9 with PID 21428 (D:\Workspace\springboot-bharath\productrestapi-cache\target\classes started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T08:21:51.869+05:30  INFO 21428 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : The following 1 profile is active: "dev"
-2024-05-19T08:21:52.745+05:30  INFO 21428 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T08:21:52.805+05:30  INFO 21428 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
-2024-05-19T08:21:53.541+05:30  INFO 21428 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-05-19T08:21:53.552+05:30  INFO 21428 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-05-19T08:21:53.552+05:30  INFO 21428 --- [productrestapi-profiles] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
-2024-05-19T08:21:53.634+05:30  INFO 21428 --- [productrestapi-profiles] [main] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring embedded WebApplicationContext
-2024-05-19T08:21:53.634+05:30  INFO 21428 --- [productrestapi-profiles] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1712 ms
-2024-05-19T08:21:53.948+05:30  INFO 21428 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T08:21:54.262+05:30  INFO 21428 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f986501
-2024-05-19T08:21:54.265+05:30  INFO 21428 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T08:21:54.310+05:30  INFO 21428 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T08:21:54.354+05:30  INFO 21428 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T08:21:54.391+05:30  INFO 21428 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T08:21:54.654+05:30  INFO 21428 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T08:21:55.379+05:30  INFO 21428 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T08:21:55.382+05:30  INFO 21428 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:21:55.753+05:30  WARN 21428 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T08:21:56.367+05:30  INFO 21428 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T08:21:56.449+05:30  INFO 21428 --- [productrestapi-profiles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/productapi'
-2024-05-19T08:21:56.462+05:30  INFO 21428 --- [productrestapi-profiles] [main] c.t.s.ProductrestapiCacheApplication     : Started ProductrestapiCacheApplication in 5.008 seconds (process running for 5.378)
-2024-05-19T08:22:06.323+05:30  INFO 23600 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 17.0.9 with PID 23600 (started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T08:22:06.325+05:30  INFO 23600 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "testing"
-2024-05-19T08:22:07.216+05:30  INFO 23600 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T08:22:07.268+05:30  INFO 23600 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
-2024-05-19T08:22:07.845+05:30  INFO 23600 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T08:22:08.165+05:30  INFO 23600 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1934339
-2024-05-19T08:22:08.166+05:30  INFO 23600 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T08:22:08.221+05:30  INFO 23600 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T08:22:08.276+05:30  INFO 23600 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T08:22:08.322+05:30  INFO 23600 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T08:22:08.570+05:30  INFO 23600 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T08:22:09.294+05:30  INFO 23600 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T08:22:09.296+05:30  INFO 23600 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:22:09.810+05:30  WARN 23600 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T08:22:10.584+05:30  INFO 23600 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T08:22:10.654+05:30  INFO 23600 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 4.602 seconds (process running for 5.544)
-2024-05-19T08:22:11.267+05:30  INFO 21428 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/productapi]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-05-19T08:22:11.267+05:30  INFO 21428 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-05-19T08:22:11.268+05:30  INFO 21428 --- [productrestapi-profiles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-05-19T08:22:11.337+05:30  INFO 21428 --- [productrestapi-profiles] [http-nio-8080-exec-1] c.t.s.controller.ProductRestController   : finding product by id:3
-2024-05-19T08:22:11.503+05:30  INFO 23600 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:22:11.505+05:30  INFO 23600 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T08:22:11.519+05:30  INFO 23600 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T08:22:47.545+05:30  INFO 23180 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Starting ProductrestapiCacheApplicationTests using Java 17.0.9 with PID 23180 (started by prade in D:\Workspace\springboot-bharath\productrestapi-cache)
-2024-05-19T08:22:47.547+05:30  INFO 23180 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : The following 1 profile is active: "testing"
-2024-05-19T08:22:48.389+05:30  INFO 23180 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-05-19T08:22:48.436+05:30  INFO 23180 --- [productrestapi-profiles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
-2024-05-19T08:22:49.037+05:30  INFO 23180 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-05-19T08:22:49.385+05:30  INFO 23180 --- [productrestapi-profiles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ce15112
-2024-05-19T08:22:49.387+05:30  INFO 23180 --- [productrestapi-profiles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-05-19T08:22:49.436+05:30  INFO 23180 --- [productrestapi-profiles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-05-19T08:22:49.488+05:30  INFO 23180 --- [productrestapi-profiles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-05-19T08:22:49.539+05:30  INFO 23180 --- [productrestapi-profiles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-05-19T08:22:49.791+05:30  INFO 23180 --- [productrestapi-profiles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-05-19T08:22:50.537+05:30  INFO 23180 --- [productrestapi-profiles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-05-19T08:22:50.541+05:30  INFO 23180 --- [productrestapi-profiles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:22:51.078+05:30  WARN 23180 --- [productrestapi-profiles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-05-19T08:22:51.872+05:30  INFO 23180 --- [productrestapi-profiles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2024-05-19T08:22:51.959+05:30  INFO 23180 --- [productrestapi-profiles] [main] .t.s.ProductrestapiCacheApplicationTests : Started ProductrestapiCacheApplicationTests in 4.7 seconds (process running for 5.642)
-2024-05-19T08:22:52.629+05:30  INFO 23180 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:22:52.632+05:30  INFO 23180 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T08:22:52.646+05:30  INFO 23180 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-05-19T08:24:27.292+05:30  INFO 21428 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-05-19T08:24:27.295+05:30  INFO 21428 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-05-19T08:24:27.305+05:30  INFO 21428 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-08T13:52:04.330+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.cached.thread-7] c.h.t.TransactionManagerService          : [172.28.0.1]:5701 [dev] [5.5.0] Committing/rolling-back live transactions of [172.28.0.1]:5702, UUID: 7993f760-867d-4eba-b72b-aad1b09ef194
+2026-02-08T13:52:04.381+05:30  INFO 16484 --- [productrestapi-profiles] [hz.hazel-instance.migration] c.h.i.p.impl.MigrationManagerImpl        : [172.28.0.1]:5701 [dev] [5.5.0] Partition balance is ok, no need to repartition.
+2026-02-08T13:52:51.312+05:30  INFO 16484 --- [productrestapi-profiles] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-08T13:52:51.345+05:30  INFO 16484 --- [productrestapi-profiles] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-02-08T13:52:51.352+05:30  INFO 16484 --- [productrestapi-profiles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-08T13:52:51.358+05:30  INFO 16484 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-08T13:52:51.375+05:30  INFO 16484 --- [productrestapi-profiles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -9,9 +9,9 @@ public class CustomHealthIndicator implements HealthIndicator {
 
     @Override
     public Health health() {
-        boolean error = true;
+        boolean error = false;
         if(error){
-            Health.down().withDetail("Error Key",123).build();
+          return Health.down().withDetail("Error Key",123).build();
         }
         return Health.up().build();
     }
